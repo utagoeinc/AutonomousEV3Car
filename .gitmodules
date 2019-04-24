@@ -1,0 +1,3 @@
+[submodule "ev3rt-hrp2"]
+	path = ev3rt-hrp2
+	url = https://github.com/ev3rt-git/ev3rt-hrp2.git

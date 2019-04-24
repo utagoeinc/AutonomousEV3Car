@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C5D1762193F7DD000E443B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D1752193F7DD000E443B /* AppDelegate.swift */; };
+		45C5D1782193F7DD000E443B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D1772193F7DD000E443B /* ViewController.swift */; };
+		45C5D17B2193F7DD000E443B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C5D1792193F7DD000E443B /* Main.storyboard */; };
+		45C5D17E2193F7DD000E443B /* EV3Control.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D17C2193F7DD000E443B /* EV3Control.xcdatamodeld */; };
+		45C5D1802193F7E0000E443B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C5D17F2193F7E0000E443B /* Assets.xcassets */; };
+		45C5D1832193F7E0000E443B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C5D1812193F7E0000E443B /* LaunchScreen.storyboard */; };
+		45C5D18E2193F7E0000E443B /* EV3ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D18D2193F7E0000E443B /* EV3ControlTests.swift */; };
+		45C5D1992193F7E0000E443B /* EV3ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D1982193F7E0000E443B /* EV3ControlUITests.swift */; };
+		45C5D1B121952103000E443B /* EV3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D1B021952103000E443B /* EV3Controller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C5D18A2193F7E0000E443B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C5D16A2193F7DD000E443B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C5D1712193F7DD000E443B;
+			remoteInfo = EV3Control;
+		};
+		45C5D1952193F7E0000E443B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C5D16A2193F7DD000E443B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C5D1712193F7DD000E443B;
+			remoteInfo = EV3Control;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45C5D1722193F7DD000E443B /* EV3Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EV3Control.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C5D1752193F7DD000E443B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45C5D1772193F7DD000E443B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45C5D17A2193F7DD000E443B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C5D17D2193F7DD000E443B /* EV3Control.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EV3Control.xcdatamodel; sourceTree = "<group>"; };
+		45C5D17F2193F7E0000E443B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45C5D1822193F7E0000E443B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45C5D1842193F7E0000E443B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C5D1892193F7E0000E443B /* EV3ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EV3ControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C5D18D2193F7E0000E443B /* EV3ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EV3ControlTests.swift; sourceTree = "<group>"; };
+		45C5D18F2193F7E0000E443B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C5D1942193F7E0000E443B /* EV3ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EV3ControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C5D1982193F7E0000E443B /* EV3ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EV3ControlUITests.swift; sourceTree = "<group>"; };
+		45C5D19A2193F7E0000E443B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C5D1B021952103000E443B /* EV3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EV3Controller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C5D16F2193F7DD000E443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5D1862193F7E0000E443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5D1912193F7E0000E443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C5D1692193F7DD000E443B = {
+			isa = PBXGroup;
+			children = (
+				45C5D1742193F7DD000E443B /* EV3Control */,
+				45C5D18C2193F7E0000E443B /* EV3ControlTests */,
+				45C5D1972193F7E0000E443B /* EV3ControlUITests */,
+				45C5D1732193F7DD000E443B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C5D1732193F7DD000E443B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C5D1722193F7DD000E443B /* EV3Control.app */,
+				45C5D1892193F7E0000E443B /* EV3ControlTests.xctest */,
+				45C5D1942193F7E0000E443B /* EV3ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C5D1742193F7DD000E443B /* EV3Control */ = {
+			isa = PBXGroup;
+			children = (
+				45C5D1752193F7DD000E443B /* AppDelegate.swift */,
+				45C5D1B021952103000E443B /* EV3Controller.swift */,
+				45C5D1772193F7DD000E443B /* ViewController.swift */,
+				45C5D1792193F7DD000E443B /* Main.storyboard */,
+				45C5D17F2193F7E0000E443B /* Assets.xcassets */,
+				45C5D1812193F7E0000E443B /* LaunchScreen.storyboard */,
+				45C5D1842193F7E0000E443B /* Info.plist */,
+				45C5D17C2193F7DD000E443B /* EV3Control.xcdatamodeld */,
+			);
+			path = EV3Control;
+			sourceTree = "<group>";
+		};
+		45C5D18C2193F7E0000E443B /* EV3ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				45C5D18D2193F7E0000E443B /* EV3ControlTests.swift */,
+				45C5D18F2193F7E0000E443B /* Info.plist */,
+			);
+			path = EV3ControlTests;
+			sourceTree = "<group>";
+		};
+		45C5D1972193F7E0000E443B /* EV3ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45C5D1982193F7E0000E443B /* EV3ControlUITests.swift */,
+				45C5D19A2193F7E0000E443B /* Info.plist */,
+			);
+			path = EV3ControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C5D1712193F7DD000E443B /* EV3Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C5D19D2193F7E0000E443B /* Build configuration list for PBXNativeTarget "EV3Control" */;
+			buildPhases = (
+				45C5D16E2193F7DD000E443B /* Sources */,
+				45C5D16F2193F7DD000E443B /* Frameworks */,
+				45C5D1702193F7DD000E443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EV3Control;
+			productName = EV3Control;
+			productReference = 45C5D1722193F7DD000E443B /* EV3Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C5D1882193F7E0000E443B /* EV3ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C5D1A02193F7E0000E443B /* Build configuration list for PBXNativeTarget "EV3ControlTests" */;
+			buildPhases = (
+				45C5D1852193F7E0000E443B /* Sources */,
+				45C5D1862193F7E0000E443B /* Frameworks */,
+				45C5D1872193F7E0000E443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C5D18B2193F7E0000E443B /* PBXTargetDependency */,
+			);
+			name = EV3ControlTests;
+			productName = EV3ControlTests;
+			productReference = 45C5D1892193F7E0000E443B /* EV3ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45C5D1932193F7E0000E443B /* EV3ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C5D1A32193F7E0000E443B /* Build configuration list for PBXNativeTarget "EV3ControlUITests" */;
+			buildPhases = (
+				45C5D1902193F7E0000E443B /* Sources */,
+				45C5D1912193F7E0000E443B /* Frameworks */,
+				45C5D1922193F7E0000E443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C5D1962193F7E0000E443B /* PBXTargetDependency */,
+			);
+			name = EV3ControlUITests;
+			productName = EV3ControlUITests;
+			productReference = 45C5D1942193F7E0000E443B /* EV3ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C5D16A2193F7DD000E443B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "細野将揮";
+				TargetAttributes = {
+					45C5D1712193F7DD000E443B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					45C5D1882193F7E0000E443B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 45C5D1712193F7DD000E443B;
+					};
+					45C5D1932193F7E0000E443B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 45C5D1712193F7DD000E443B;
+					};
+				};
+			};
+			buildConfigurationList = 45C5D16D2193F7DD000E443B /* Build configuration list for PBXProject "EV3Control" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C5D1692193F7DD000E443B;
+			productRefGroup = 45C5D1732193F7DD000E443B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C5D1712193F7DD000E443B /* EV3Control */,
+				45C5D1882193F7E0000E443B /* EV3ControlTests */,
+				45C5D1932193F7E0000E443B /* EV3ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C5D1702193F7DD000E443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5D1832193F7E0000E443B /* LaunchScreen.storyboard in Resources */,
+				45C5D1802193F7E0000E443B /* Assets.xcassets in Resources */,
+				45C5D17B2193F7DD000E443B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5D1872193F7E0000E443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5D1922193F7E0000E443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C5D16E2193F7DD000E443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5D1B121952103000E443B /* EV3Controller.swift in Sources */,
+				45C5D17E2193F7DD000E443B /* EV3Control.xcdatamodeld in Sources */,
+				45C5D1782193F7DD000E443B /* ViewController.swift in Sources */,
+				45C5D1762193F7DD000E443B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5D1852193F7E0000E443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5D18E2193F7E0000E443B /* EV3ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5D1902193F7E0000E443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5D1992193F7E0000E443B /* EV3ControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45C5D18B2193F7E0000E443B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C5D1712193F7DD000E443B /* EV3Control */;
+			targetProxy = 45C5D18A2193F7E0000E443B /* PBXContainerItemProxy */;
+		};
+		45C5D1962193F7E0000E443B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C5D1712193F7DD000E443B /* EV3Control */;
+			targetProxy = 45C5D1952193F7E0000E443B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45C5D1792193F7DD000E443B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C5D17A2193F7DD000E443B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45C5D1812193F7E0000E443B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C5D1822193F7E0000E443B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C5D19B2193F7E0000E443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45C5D19C2193F7E0000E443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45C5D19E2193F7E0000E443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7JCJQRPEK;
+				INFOPLIST_FILE = EV3Control/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ev3rt.EV3Control;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45C5D19F2193F7E0000E443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7JCJQRPEK;
+				INFOPLIST_FILE = EV3Control/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ev3rt.EV3Control;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45C5D1A12193F7E0000E443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7JCJQRPEK;
+				INFOPLIST_FILE = EV3ControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ev3rt.EV3ControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EV3Control.app/EV3Control";
+			};
+			name = Debug;
+		};
+		45C5D1A22193F7E0000E443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7JCJQRPEK;
+				INFOPLIST_FILE = EV3ControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ev3rt.EV3ControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EV3Control.app/EV3Control";
+			};
+			name = Release;
+		};
+		45C5D1A42193F7E0000E443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7JCJQRPEK;
+				INFOPLIST_FILE = EV3ControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ev3rt.EV3ControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EV3Control;
+			};
+			name = Debug;
+		};
+		45C5D1A52193F7E0000E443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7JCJQRPEK;
+				INFOPLIST_FILE = EV3ControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ev3rt.EV3ControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EV3Control;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C5D16D2193F7DD000E443B /* Build configuration list for PBXProject "EV3Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5D19B2193F7E0000E443B /* Debug */,
+				45C5D19C2193F7E0000E443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C5D19D2193F7E0000E443B /* Build configuration list for PBXNativeTarget "EV3Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5D19E2193F7E0000E443B /* Debug */,
+				45C5D19F2193F7E0000E443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C5D1A02193F7E0000E443B /* Build configuration list for PBXNativeTarget "EV3ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5D1A12193F7E0000E443B /* Debug */,
+				45C5D1A22193F7E0000E443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C5D1A32193F7E0000E443B /* Build configuration list for PBXNativeTarget "EV3ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5D1A42193F7E0000E443B /* Debug */,
+				45C5D1A52193F7E0000E443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45C5D17C2193F7DD000E443B /* EV3Control.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45C5D17D2193F7DD000E443B /* EV3Control.xcdatamodel */,
+			);
+			currentVersion = 45C5D17D2193F7DD000E443B /* EV3Control.xcdatamodel */;
+			path = EV3Control.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45C5D16A2193F7DD000E443B /* Project object */;
+}
