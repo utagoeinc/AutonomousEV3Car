@@ -1,9 +1,11 @@
 # lane_tracking
 This application realizes the autonomous car using Convolutional Neural Network (CNN).
+
 All programs are written in the Python3.
 
 ## Abstract
-
+![Abstract_running](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_tracking/tracking_abstract.png)
+![Abstract_getting_data](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_tracking/data_collecting_abstract.png)
 
 ## Getting Started
 1. Install dependencies.
