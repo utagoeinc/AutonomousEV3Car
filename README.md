@@ -5,7 +5,7 @@ First of all, please watch the video on the YouTube.
 [![YouTube Link](https://img.youtube.com/vi/nMtCHrGf0yg/0.jpg)](https://www.youtube.com/watch?v=nMtCHrGf0yg&feature=youtu.be)
 
 As you can see on the video, we have implemented the autonomous car as a internal research project.
-<!-- EV3の全体画像 -->
+![EV3 car](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/EV3car_image.jpg)
 
 This repo includes following demo applications.
 - EV3Control: iOS App of remote controller of EV3 car
@@ -22,7 +22,8 @@ For more informations, please check the README.md on each directory.
 We used the [RAC3 Truck](https://www.lego.com/en-us/mindstorms/build-a-robot/rac3-truck) and remodeled a bit as follows.
     1. Put away the steering wheel.
     1. Add a vertical bar in the front of the truck to keep the iPhone in the right place.
-    <!-- 追加パーツの写真 -->
+    ![Parts added](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/added_parts.jpg)
+    ![customized EV3](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/customized_EV3_image.jpg)
 
 1. Prepare SD card for inserting into the EV3  
 There are two ways for preparing the SD card. The easiest way is to copy ev3rt-utagoe/sdcard/* on the SD card.
