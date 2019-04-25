@@ -50,10 +50,10 @@ All programs are written in the Python3.
 
     |Original Image |Transformed Image |
     |---|---|
-    |10, 176 |35, 176 |
-    |140, 176 |140, 176 |
-    |110, 140 |140, 0 |
-    |48, 140 |35, 0 |
+    |(10, 176) |(35, 176) |
+    |(140, 176) |(140, 176) |
+    |(110, 140) |(140, 0) |
+    |(48, 140) |(35, 0) |
 
     ![perspective transform](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/transform.png)
 
@@ -62,6 +62,17 @@ All programs are written in the Python3.
 1. Convert into binary images
 
     After transforming, converting them into binary images using thresholds.
+
+    Threshold is:
+
+    |Lower Threshold |Higher Threshold |
+    |---|---|
+    |200 |255 |
+
+    If a pixel has a value between lower and higher thresholds, it becomes white in the output image.
+    Otherwise, it becomes black in the output.
+
+    After thresholding the image, output is blurred by gaussian filter.
 
     ![binary conversion](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/white_line_detection.png)
 
