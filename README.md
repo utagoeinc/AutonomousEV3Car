@@ -1,11 +1,16 @@
 # AutonomousEV3Car
 Demo applications of autonomous, or self-driving, car by LEGO Mindstorms EV3.
 
-First of all, please watch the video on the YouTube.
+If you wanted to see our car running, please watch the video on the [YouTube](https://www.youtube.com/watch?v=nMtCHrGf0yg&feature=youtu.be).
+
+We also have [our website](http://www.utagoe.com/jp/legoev3.html).
 
 [![YouTube Link](https://img.youtube.com/vi/nMtCHrGf0yg/0.jpg)](https://www.youtube.com/watch?v=nMtCHrGf0yg&feature=youtu.be)
 
 As you can see on the video, we have implemented the autonomous car as a internal research project.
+
+Our car only uses an image (176*176, grayscale jpeg format) which is sent from iPhone set in front of the car.
+
 ![EV3 car](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/EV3car_image.jpg)
 
 This repo includes following demo applications.
