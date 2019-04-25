@@ -14,7 +14,7 @@ All programs are written in the Python3.
       pip install -r requirements.txt
       ```  
 
-1. Modify the bottom of advanced_lane.py as you want.  
+1. Modify the bottom of lane.py as you want.  
 
     For example, both simple_lane() and advanced_lane() have the argument of path to the input image.  
 
@@ -44,8 +44,20 @@ All programs are written in the Python3.
     This step takes perspective transformation.
     We give our test images as inputs, and transform them to get birds-eye view images.
 
-    Function warp() gives us this transformation.
+    There is a parameter in the transforming algorithm.
+    They represent corresponding pixels in both input and output images.
+    In our case, we used following values as this parameter.
+
+    |Original Image |Transformed Image |
+    |---|---|
+    |10, 176 |35, 176 |
+    |140, 176 |140, 176 |
+    |110, 140 |140, 0 |
+    |48, 140 |35, 0 |
+
     ![perspective transform](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/transform.png)
+
+    Function warp() gives us this transformation.
 
 1. Convert into binary images
 
