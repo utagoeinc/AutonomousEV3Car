@@ -16,9 +16,9 @@ All programs are written in the Python3.
 
 1. Modify the bottom of advanced_lane.py as you want.  
 
-  For example, both simple_lane() and advanced_lane() have the argument of path to the input image.  
+    For example, both simple_lane() and advanced_lane() have the argument of path to the input image.  
 
-  You can also comment/uncomment calling these functions to change the approach.
+    You can also comment/uncomment calling these functions to change the approach.
 
 1. Run the script.
 
