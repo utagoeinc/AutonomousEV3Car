@@ -38,4 +38,5 @@ For more informations, please check the README.md on each directory.
 
 
 ## References
-1. References will come here
+1. [OpenCV Python Tutorial - Find Lanes for Self-Driving Cars (Computer Vision Basics Tutorial)](https://www.youtube.com/watch?v=eLTLtUVuuy4)
+1. [RyosukeHonda/Advanced_Lane_Lines](https://github.com/RyosukeHonda/Advanced_Lane_Lines)
