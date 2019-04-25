@@ -7,9 +7,30 @@ from keras.optimizers import Adam
 import cv2
 import os
 
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    'mode',
+    help='train or test')
+parser.add_argument(
+    '-s',
+    '--step',
+    help='The number of step which the model you want to load.',
+    default=0)
+parser.add_argument(
+    '-t',
+    '--test_image',
+    help='Path to the image for test.',
+    default=None)
+parser.add_argument(
+    '-a',
+    '--expected_action',
+    help='Expected action for test_image',
+    default=0)
 
 class Model:
-    def __init__(self, learning_rate=0.001, step=1):
+    def __init__(self, learning_rate=0.001, step=0):
         os.makedirs('./backup', exist_ok=True)
         self.step = step
 
@@ -63,8 +84,8 @@ class Model:
         return self.model.predict_classes(input)[0]
 
 
-def main():
-    model = Model(step=0)
+def main(step=0):
+    model = Model(step=step)
 
     inputs = []
     targets = []
@@ -81,9 +102,8 @@ def main():
     model.train(inputs, targets_np)
 
 
-def test(image_path, expected_action):
-    model = Model(step=0)
-    lane_detector = LaneDetector()
+def test(image_path, expected_action, step=0):
+    model = Model(step=step)
 
     input = np.array([cv2.imread(image_path)])
 
@@ -92,4 +112,9 @@ def test(image_path, expected_action):
 
 
 if __name__ == '__main__':
-    main()
+    args = parser.parse_args()
+
+    if args.mode == 'train':
+        main(step=args.step)
+    elif args.mode == 'test':
+        test(args.test_image, args.expected_action, step=args.step)

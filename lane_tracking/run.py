@@ -16,6 +16,15 @@ import math
 
 from train import Model
 
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    '-s',
+    '--step',
+    help='The number of step which the model you want to load.',
+    default=100)
+
 class myHandler(BaseHTTPRequestHandler):
     queue = None
 
@@ -93,7 +102,8 @@ class http_server:
 
 
     def exec_queue(self):
-        self.model = Model(step=15000)
+        args = parser.parse_args()
+        self.model = Model(step=args.step)
 
         while True:
             if not self.queue.empty():
