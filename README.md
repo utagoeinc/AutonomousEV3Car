@@ -25,14 +25,14 @@ For more informations, please check the README.md on each directory.
 
 ## Getting Started
 1. Building EV3 car  
-We used the [RAC3 Truck](https://www.lego.com/en-us/mindstorms/build-a-robot/rac3-truck) and remodeled a bit as follows.
+  We used the [RAC3 Truck](https://www.lego.com/en-us/mindstorms/build-a-robot/rac3-truck) and remodeled a bit as follows.
     1. Put away the steering wheel.
     1. Add a vertical bar in the front of the truck to keep the iPhone in the right place.
     ![Parts added](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/added_parts.jpg)
     ![customized EV3](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/customized_EV3_image.jpg)
 
 1. Prepare SD card for inserting into the EV3  
-There are two ways for preparing the SD card. The easiest way is to copy ev3rt-utagoe/sdcard/* on the SD card.
+  There are two ways for preparing the SD card. The easiest way is to copy ev3rt-utagoe/sdcard/* on the SD card.
 
 1. Run any application you like!
 
