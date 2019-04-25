@@ -32,6 +32,25 @@ All programs are written in the Python3.
 
 ### advanced_lane() function
 1. Perspective transform
+
     This step takes perspective transformation.
     We give our test images as inputs, and transform them to get birds-eye view images.
+
+    Function warp() gives us this transformation.
     ![perspective transform](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/transform.png)
+
+1. Convert into binary images
+
+    After transforming, converting them into binary images using thresholds.
+
+    ![binary conversion](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/white_line_detection.png)
+
+1. Find lines
+
+    Using moving averages to find lines that represent us the lane.
+
+    ![find lines](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/masks.png)
+
+1. Output the result
+
+    ![result](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/warp_inv.png)
