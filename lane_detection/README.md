@@ -1,4 +1,4 @@
-# lane_detection
+# Lane Detection
 This application detects the lines on the lane using OpenCV.
 
 We have two approaches.
@@ -7,7 +7,7 @@ We have two approaches.
 
 All programs are written in the Python3.
 
-## How to execute
+## How to run
 1. Install dependencies.  
 
       ```
@@ -23,9 +23,12 @@ All programs are written in the Python3.
 1. Run the script.
 
       ```
-      python advanced_lane.py
+      python lane.py
       ```
 
 ## Approaches
-### simple_lane function
-### advanced_lane function
+### simple_lane() function
+1.
+
+### advanced_lane() function
+1.

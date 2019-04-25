@@ -1,4 +1,4 @@
-# lane_tracking
+# Lane Tracking
 This application realizes the autonomous car using Convolutional Neural Network (CNN).
 
 All programs are written in the Python3.
