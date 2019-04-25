@@ -28,7 +28,15 @@ All programs are written in the Python3.
 
 ## Approaches
 ### simple_lane() function
-1.
+1. Extract edges
+    ![canny](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/canny.png)
+
+1. Detect Lines
+    ![hough](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/hough.png)
+
+    ![lines](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/averaged_line.png)
+
+    ![result](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/combo_image.jpg)
 
 ### advanced_lane() function
 1. Perspective transform
