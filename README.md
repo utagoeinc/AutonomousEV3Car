@@ -14,11 +14,11 @@ Our car only uses an image (176*176, grayscale jpeg format) which is sent from i
 ![EV3 car](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/EV3car_image.jpg)
 
 This repo includes following demo applications.
-- EV3Control: iOS App of remote controller of EV3 car
-- ev3rt-utagoe: C++ program which controls EV3 directly
-- inverse_reinforcement_learning: Demo application of Inverse Reinforcement Learning (IRL) with simple simulator using OpenGL
-- lane_detection: Detecting lane using OpenCV
-- lane_tracking: Tracking lane using Convolutional Neural Network (CNN)
+- [EV3Control](https://github.com/utagoeinc/AutonomousEV3Car/tree/master/EV3Control): iOS App of remote controller of EV3 car
+- [ev3rt-utagoe](https://github.com/utagoeinc/AutonomousEV3Car/tree/master/ev3rt-utagoe): C++ program which controls EV3 directly
+- [inverse_reinforcement_learning](https://github.com/utagoeinc/AutonomousEV3Car/tree/master/inverse_reinforcement_learning): Demo application of Inverse Reinforcement Learning (IRL) with simple simulator using OpenGL
+- [lane_detection](https://github.com/utagoeinc/AutonomousEV3Car/tree/master/lane_detection): Detecting lane using OpenCV
+- [lane_tracking](https://github.com/utagoeinc/AutonomousEV3Car/tree/master/lane_tracking): Tracking lane using Convolutional Neural Network (CNN)
 
 For more informations, please check the README.md on each directory.
 
