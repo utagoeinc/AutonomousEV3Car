@@ -18,7 +18,7 @@ All programs are written in the Python3.
 
     For example, both simple_lane() and advanced_lane() have the argument of path to the input image.  
 
-    You can also comment/uncomment calling these functions to change the approach.
+    You can also comment/uncomment callings of these functions to change the approach.
 
 1. Run the script.
 
@@ -92,5 +92,8 @@ All programs are written in the Python3.
     ![find lines](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/masks.png)
 
 1. Output the result
+
+    With the result of previous step, we can draw a polygon which represents the area of predicted lane.
+    Final step takes perspective transformation which is opposite with the first step and combine the output polygon and the original input.
 
     ![result](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/warp_inv.png)
