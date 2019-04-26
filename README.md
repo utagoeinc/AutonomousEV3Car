@@ -38,6 +38,8 @@ For more informations, please check the README.md on each directory.
 
 
 ## References
+1. [Deeper Depth Prediction with Fully Convolutional Residual Networks](https://arxiv.org/abs/1606.00373)
+1. [iro-cp/FCRN-DepthPrediction](https://github.com/iro-cp/FCRN-DepthPrediction)
 1. [OpenCV Python Tutorial - Find Lanes for Self-Driving Cars (Computer Vision Basics Tutorial)](https://www.youtube.com/watch?v=eLTLtUVuuy4)
 1. [RyosukeHonda/Advanced_Lane_Lines](https://github.com/RyosukeHonda/Advanced_Lane_Lines)
 1. [Canny法によるエッジ検出](http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_canny/py_canny.html)
