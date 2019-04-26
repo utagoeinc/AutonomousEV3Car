@@ -56,9 +56,23 @@ All programs are written in the Python3.
     In our case, the region of interest looks like a triangle with vertices of (0, 176), (176, 176), and (88, 105).
 
 1. Detect Lines
+
+    To detect lines from the image of masked edges, we applied the Hough transform.
+    Hough transform is a feature extraction technique often used in an image processing.
+
     ![hough](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/hough.png)
 
+    In the Hough transform, mapping each points on the x-y space into Hough space using an equation in the figure above.
+    A point on the space corresponds to the line on the other space.
+    It means, a point of intersection on the Hough space represents the line on x-y space.
+
+    After detecting lines with Hough transform, there are a lot of lines in the result.
+    Therefore, we averaged them into two lines: a left line and a right line.
+    Function named average_slope_intercept() doing this process.
+
     ![lines](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/averaged_line.png)
+
+    Finally, averaged lines and input image are combined into single image and we got a result like below.
 
     ![result](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/combo_image.jpg)
 
