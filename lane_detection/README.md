@@ -81,7 +81,13 @@ All programs are written in the Python3.
     Using moving averages to find lines that represent us the lane.
     First we calculate the peaks of moving averages for width direction.
     Wavelet transformation method was used at this time so that it will be robust for noise.
-    In the most cases two peaks were found, and we used them as a initial value of next step.
+    In the most cases two peaks were found, and we used them as a initial value of candidates of peaks in the next step.
+
+    After initializing, we divided an image into 11 pieces along to height direction then applied the moving average and wavelet transformation method again for each ones from a piece with larger height to that with smaller height.
+    If we could find appropriate peaks, then we regarded them as lines.
+    Otherwise, we used the previous values of peaks.
+
+    As a result, we could get both left and right line predictions like below.
 
     ![find lines](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/masks.png)
 
