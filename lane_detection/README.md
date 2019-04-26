@@ -31,6 +31,26 @@ All programs are written in the Python3.
 1. Extract edges
     ![canny](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/canny.png)
 
+    This step takes edge extraction using Canny algorithm.
+
+    First, applying a gaussian filter to get blurred input image.
+    By doing this, we can reduce the noises of input images.
+
+    Then, extracting edges using Canny edge detector.
+    In our case, applying the function called Canny() in the OpenCV to doing this.
+
+    There are two thresholds: lower and higher.
+    In the Canny algorithm, candidates of edges are detected using gradients of the pixels.
+    If the gradient has the value larger than higher threshold, it might be a true edge.
+    Otherwise, if it has the value smaller than lower threshold, it might be a false edge.
+    We used the thresholds as below.
+
+    |Lower Threshold |Higher Threshold |
+    |---|---|
+    |50 |100 |
+
+    [![Canny thresholds](http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/_images/hysteresis.jpg)](http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_canny/py_canny.html)
+
 1. Detect Lines
     ![hough](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/hough.png)
 
