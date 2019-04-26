@@ -51,6 +51,10 @@ All programs are written in the Python3.
 
     [![Canny thresholds](http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/_images/hysteresis.jpg)](http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_canny/py_canny.html)
 
+    After extracting edges, image is masked by the mask image.
+    This mask represents the region of interest.
+    In our case, the region of interest looks like a triangle with vertices of (0, 176), (176, 176), and (88, 105).
+
 1. Detect Lines
     ![hough](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/lane_detection/hough.png)
 
