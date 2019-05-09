@@ -1,0 +1,7 @@
+numpy
+opencv-python
+keras
+tensorflow
+PyOpenGL
+PyOpenGL_accelerate
+Pillow

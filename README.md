@@ -25,7 +25,7 @@ For more informations, please check the README.md on each directory.
 
 ## Getting Started
 1. Building EV3 car  
-  We used the [RAC3 Truck](https://www.lego.com/en-us/mindstorms/build-a-robot/rac3-truck) and remodeled a bit as follows.
+  We used a [RAC3 Truck](https://www.lego.com/en-us/mindstorms/build-a-robot/rac3-truck) and remodeled a bit as follows.
     1. Put away the steering wheel.
     1. Add a vertical bar in the front of the truck to keep the iPhone in the right place.
     ![Parts added](https://raw.githubusercontent.com/utagoeinc/AutonomousEV3Car/images/added_parts.jpg)

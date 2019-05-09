@@ -4,11 +4,6 @@ from threading import Thread
 import numpy as np
 from PIL import Image
 
-import json
-import io
-import math
-import sys
-
 from irl import Train, Test
 from depthPrediction import DepthPredictor
 from simulator import Simulator
