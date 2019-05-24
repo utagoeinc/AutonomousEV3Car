@@ -1,6 +1,8 @@
 # Inverse Reinforcement Learning
 Demo application of Inverse Reinforcement Learning (IRL) with a simple simulator.
 
+All programs are written in the Python3.
+
 ## How to run
 1. Install dependencies.  
 
@@ -17,3 +19,8 @@ Demo application of Inverse Reinforcement Learning (IRL) with a simple simulator
       ```
       python train.py
       ```
+
+## Methodology
+Reinforcement Learning (RL) and Inverse Reinforcement Learning (IRL) are often applied to solve problems such as Go and Atari Games.
+Well-trained model predicts the best actions for the states on an arbitrary environment.
+Strategies of selecting such actions maximize the entire rewards.
